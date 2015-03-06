@@ -11,23 +11,32 @@ import UIKit
 class LoginViewController: BaseViewController{
 
 
+ 
     @IBOutlet weak var loginButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var logoImage = UIImageView()
+        logoImage.frame = CGRect(x: self.sumWidth/3, y: self.sumHeight/6, width: self.sumWidth/3, height: self.sumHeight/6)
+        logoImage.image = UIImage(named: "logo.png")
+        self.view.addSubview(logoImage)
+        
         var userName = UITextField()
         userName.frame = CGRect(x: self.sumWidth/5, y: self.sumHeight/2, width: self.sumWidth*3/5, height: 30)
-        userName.backgroundColor = UIColor.blackColor()
+        userName.background = UIImage(named: "input.png")
+        userName.placeholder = " 请输入用户名"
         self.view.addSubview(userName)
         
         var passWord = UITextField()
         passWord.frame = CGRect(x: self.sumWidth/5, y: self.sumHeight/2+50, width: self.sumWidth*3/5, height: 30)
-        passWord.backgroundColor = UIColor.blackColor()
+        passWord.background = UIImage(named: "input.png")
+        passWord.placeholder = " 请输入用户密码"
         self.view.addSubview(passWord)
         
-//        var loginButton = UIButton()
+
         loginButton.frame = CGRect(x: self.sumWidth*3/10, y: self.sumHeight/2+90, width: self.sumWidth/5, height: 30)
         loginButton.setTitle("登陆", forState: UIControlState.Normal)
-        loginButton.addTarget(self, action: "login", forControlEvents: UIControlEvents.TouchUpInside)
+        loginButton.addTarget(self, action:"butClick:",forControlEvents:.TouchUpInside)
         self.view.addSubview(loginButton)
 
  
@@ -39,10 +48,13 @@ class LoginViewController: BaseViewController{
         // Dispose of any resources that can be recreated.
     }
     
-    func login(){
-    
+    func butClick(sender: UIButton){
+        self.performSegueWithIdentifier("login", sender: self)
     }
     
+    @IBAction func logOut(segue: UIStoryboardSegue){
+        
+    }
 
     /*
     // MARK: - Navigation

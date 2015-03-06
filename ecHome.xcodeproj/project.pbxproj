@@ -33,7 +33,6 @@
 		B7E374A81AA8AA5800DC77FE /* select_up.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E374971AA8AA5800DC77FE /* select_up.png */; };
 		B7E374A91AA8AA5800DC77FE /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E374981AA8AA5800DC77FE /* select.png */; };
 		B7E374AA1AA8AA5800DC77FE /* sub.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E374991AA8AA5800DC77FE /* sub.png */; };
-		B7E374AC1AA8B05E00DC77FE /* RootUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E374AB1AA8B05E00DC77FE /* RootUINavigationController.swift */; };
 		B7E374AE1AA8B10800DC77FE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E374AD1AA8B10800DC77FE /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -78,7 +77,6 @@
 		B7E374971AA8AA5800DC77FE /* select_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select_up.png; sourceTree = "<group>"; };
 		B7E374981AA8AA5800DC77FE /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
 		B7E374991AA8AA5800DC77FE /* sub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sub.png; sourceTree = "<group>"; };
-		B7E374AB1AA8B05E00DC77FE /* RootUINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootUINavigationController.swift; sourceTree = "<group>"; };
 		B7E374AD1AA8B10800DC77FE /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,7 +122,6 @@
 				B7E374841AA8A43F00DC77FE /* Image */,
 				B7E374AD1AA8B10800DC77FE /* BaseViewController.swift */,
 				B7E374821AA8A3AD00DC77FE /* LoginViewController.swift */,
-				B7E374AB1AA8B05E00DC77FE /* RootUINavigationController.swift */,
 				B7E3745F1AA89A1A00DC77FE /* AppDelegate.swift */,
 				B7E374661AA89A1A00DC77FE /* Main.storyboard */,
 				B7E374691AA89A1A00DC77FE /* Images.xcassets */,
@@ -308,7 +305,6 @@
 				B7E374AE1AA8B10800DC77FE /* BaseViewController.swift in Sources */,
 				B7E374831AA8A3AD00DC77FE /* LoginViewController.swift in Sources */,
 				B7E374631AA89A1A00DC77FE /* ecHome.xcdatamodeld in Sources */,
-				B7E374AC1AA8B05E00DC77FE /* RootUINavigationController.swift in Sources */,
 				B7E374601AA89A1A00DC77FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
