@@ -69,10 +69,10 @@
             </objects>
             <point key="canvasLocation" x="975" y="422"/>
         </scene>
-        <!--View Controller-->
+        <!--Select View Controller-->
         <scene sceneID="FAL-jM-qRH">
             <objects>
-                <viewController id="sDT-pK-wea" sceneMemberID="viewController">
+                <viewController id="sDT-pK-wea" customClass="SelectViewController" customModule="ecHome" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="d0e-2W-eKG"/>
                         <viewControllerLayoutGuide type="bottom" id="m6I-Mm-QnA"/>
@@ -119,6 +119,11 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="downlButton" destination="B72-j8-ixD" id="1Xj-eh-NvN"/>
+                        <outlet property="envButton" destination="yoL-de-3qe" id="ThM-xD-EkV"/>
+                        <outlet property="envCtlButton" destination="MRL-n1-zEc" id="epi-4i-k1T"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Djd-dO-LsL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="AoH-73-NtW" userLabel="Exit" sceneMemberID="exit"/>
@@ -128,7 +133,7 @@
         <!--环境监测-->
         <scene sceneID="Kaf-Tg-RuF">
             <objects>
-                <viewController id="AJp-wy-yZY" sceneMemberID="viewController">
+                <viewController id="AJp-wy-yZY" customClass="EnvViewController" customModule="ecHome" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TP5-HI-WUb"/>
                         <viewControllerLayoutGuide type="bottom" id="Lum-0Y-Pkl"/>
@@ -148,7 +153,7 @@
         <!--下载列表-->
         <scene sceneID="FVA-E7-qw7">
             <objects>
-                <tableViewController id="Bxr-7h-FWl" sceneMemberID="viewController">
+                <tableViewController id="Bxr-7h-FWl" customClass="DownloadListViewController" customModule="ecHome" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="bhi-Tf-iIs">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -182,7 +187,7 @@
         <!--新建任务-->
         <scene sceneID="hEP-9N-2iD">
             <objects>
-                <viewController id="kE5-cW-9ac" sceneMemberID="viewController">
+                <viewController id="kE5-cW-9ac" customClass="NewDownViewController" customModule="ecHome" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CgR-8E-txP"/>
                         <viewControllerLayoutGuide type="bottom" id="ABv-PH-ppW"/>
@@ -246,7 +251,7 @@
         <!--遥控品牌-->
         <scene sceneID="m8g-QM-5oT">
             <objects>
-                <tableViewController id="jpe-7Z-0Rl" sceneMemberID="viewController">
+                <tableViewController id="jpe-7Z-0Rl" customClass="CtlTableViewController" customModule="ecHome" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="S6P-6S-4nH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -303,7 +308,7 @@
         <!--自定义遥控-->
         <scene sceneID="hCE-w1-zDg">
             <objects>
-                <viewController id="GOv-RU-Egx" sceneMemberID="viewController">
+                <viewController id="GOv-RU-Egx" customClass="CustomCtlViewController" customModule="ecHome" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mF7-fZ-Tpe"/>
                         <viewControllerLayoutGuide type="bottom" id="8pL-I0-Li9"/>
@@ -319,10 +324,10 @@
             </objects>
             <point key="canvasLocation" x="3432" y="1160"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Base Navigation Controller-->
         <scene sceneID="6cR-c9-Nb6">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WkR-yj-OHs" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WkR-yj-OHs" customClass="BaseNavigationController" customModule="ecHome" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="znq-dJ-OHn">
@@ -338,10 +343,10 @@
             </objects>
             <point key="canvasLocation" x="1541" y="426"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Base Navigation Controller-->
         <scene sceneID="0gY-zx-K5V">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="y3O-eW-LOb" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="y3O-eW-LOb" customClass="BaseNavigationController" customModule="ecHome" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dA8-w7-dqj">
@@ -357,10 +362,10 @@
             </objects>
             <point key="canvasLocation" x="2446" y="426"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Base Navigation Controller-->
         <scene sceneID="t71-EV-Nq4">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="v4t-Vj-d80" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="v4t-Vj-d80" customClass="BaseNavigationController" customModule="ecHome" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gDy-bE-cSC">
@@ -376,10 +381,10 @@
             </objects>
             <point key="canvasLocation" x="1928" y="1160"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Base Navigation Controller-->
         <scene sceneID="P8e-jG-vvQ">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ph1-eW-3m7" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ph1-eW-3m7" customClass="BaseNavigationController" customModule="ecHome" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="NBm-6M-XTG">
@@ -395,10 +400,10 @@
             </objects>
             <point key="canvasLocation" x="2274" y="1160"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Base Navigation Controller-->
         <scene sceneID="a1V-OG-Noc">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ci5-y7-EcU" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ci5-y7-EcU" customClass="BaseNavigationController" customModule="ecHome" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3gA-2k-DIh">
@@ -433,10 +438,10 @@
             </objects>
             <point key="canvasLocation" x="2644" y="1863"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Base Navigation Controller-->
         <scene sceneID="hD2-OC-47x">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yrf-0J-2Eh" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yrf-0J-2Eh" customClass="BaseNavigationController" customModule="ecHome" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DcI-GD-lrL">
@@ -452,10 +457,10 @@
             </objects>
             <point key="canvasLocation" x="3344" y="428"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Base Navigation Controller-->
         <scene sceneID="OmX-HN-Zkh">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qll-Km-JIR" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qll-Km-JIR" customClass="BaseNavigationController" customModule="ecHome" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="X7j-WM-1Gp">
@@ -475,4 +480,5 @@
     <resources>
         <image name="logo.png" width="167" height="201"/>
     </resources>
+    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>

@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B716F9131AAAEA920094D20C /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = B716F9121AAAEA920094D20C /* bar.png */; };
+		B716F9151AAAEC9B0094D20C /* CtlTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B716F9141AAAEC9B0094D20C /* CtlTableViewController.swift */; };
+		B716F9171AAAED6E0094D20C /* NewDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B716F9161AAAED6E0094D20C /* NewDownViewController.swift */; };
+		B716F9191AAAEDA70094D20C /* EnvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B716F9181AAAEDA70094D20C /* EnvViewController.swift */; };
+		B716F91B1AAAEE0E0094D20C /* CustomCtlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B716F91A1AAAEE0E0094D20C /* CustomCtlViewController.swift */; };
+		B783C3571AAADB8F0016B9D5 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = B783C3551AAADB8F0016B9D5 /* ytcpsocket.c */; };
+		B783C3581AAADB8F0016B9D5 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B783C3561AAADB8F0016B9D5 /* ytcpsocket.swift */; };
+		B783C35A1AAADC3A0016B9D5 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B783C3591AAADC3A0016B9D5 /* ysocket.swift */; };
+		B783C35C1AAAE1620016B9D5 /* DownloadListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B783C35B1AAAE1620016B9D5 /* DownloadListViewController.swift */; };
+		B783C35E1AAAE2CC0016B9D5 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B783C35D1AAAE2CC0016B9D5 /* SelectViewController.swift */; };
+		B783C3601AAAE3A30016B9D5 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B783C35F1AAAE3A30016B9D5 /* BaseNavigationController.swift */; };
 		B7E374601AA89A1A00DC77FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E3745F1AA89A1A00DC77FE /* AppDelegate.swift */; };
 		B7E374631AA89A1A00DC77FE /* ecHome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7E374611AA89A1A00DC77FE /* ecHome.xcdatamodeld */; };
 		B7E374681AA89A1A00DC77FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E374661AA89A1A00DC77FE /* Main.storyboard */; };
@@ -47,6 +58,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B716F9121AAAEA920094D20C /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		B716F9141AAAEC9B0094D20C /* CtlTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CtlTableViewController.swift; sourceTree = "<group>"; };
+		B716F9161AAAED6E0094D20C /* NewDownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDownViewController.swift; sourceTree = "<group>"; };
+		B716F9181AAAEDA70094D20C /* EnvViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvViewController.swift; sourceTree = "<group>"; };
+		B716F91A1AAAEE0E0094D20C /* CustomCtlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCtlViewController.swift; sourceTree = "<group>"; };
+		B783C3551AAADB8F0016B9D5 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		B783C3561AAADB8F0016B9D5 /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		B783C3591AAADC3A0016B9D5 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		B783C35B1AAAE1620016B9D5 /* DownloadListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadListViewController.swift; sourceTree = "<group>"; };
+		B783C35D1AAAE2CC0016B9D5 /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		B783C35F1AAAE3A30016B9D5 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		B7E3745A1AA89A1A00DC77FE /* ecHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E3745E1AA89A1A00DC77FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7E3745F1AA89A1A00DC77FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +120,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B783C3541AAADB6C0016B9D5 /* socket */ = {
+			isa = PBXGroup;
+			children = (
+				B783C3591AAADC3A0016B9D5 /* ysocket.swift */,
+				B783C3551AAADB8F0016B9D5 /* ytcpsocket.c */,
+				B783C3561AAADB8F0016B9D5 /* ytcpsocket.swift */,
+			);
+			name = socket;
+			sourceTree = "<group>";
+		};
 		B7E374511AA89A1A00DC77FE = {
 			isa = PBXGroup;
 			children = (
@@ -119,9 +151,17 @@
 		B7E3745C1AA89A1A00DC77FE /* ecHome */ = {
 			isa = PBXGroup;
 			children = (
+				B783C3541AAADB6C0016B9D5 /* socket */,
 				B7E374841AA8A43F00DC77FE /* Image */,
 				B7E374AD1AA8B10800DC77FE /* BaseViewController.swift */,
 				B7E374821AA8A3AD00DC77FE /* LoginViewController.swift */,
+				B783C35D1AAAE2CC0016B9D5 /* SelectViewController.swift */,
+				B783C35B1AAAE1620016B9D5 /* DownloadListViewController.swift */,
+				B716F9141AAAEC9B0094D20C /* CtlTableViewController.swift */,
+				B716F9161AAAED6E0094D20C /* NewDownViewController.swift */,
+				B783C35F1AAAE3A30016B9D5 /* BaseNavigationController.swift */,
+				B716F9181AAAEDA70094D20C /* EnvViewController.swift */,
+				B716F91A1AAAEE0E0094D20C /* CustomCtlViewController.swift */,
 				B7E3745F1AA89A1A00DC77FE /* AppDelegate.swift */,
 				B7E374661AA89A1A00DC77FE /* Main.storyboard */,
 				B7E374691AA89A1A00DC77FE /* Images.xcassets */,
@@ -160,6 +200,7 @@
 		B7E374841AA8A43F00DC77FE /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				B716F9121AAAEA920094D20C /* bar.png */,
 				B7E374891AA8AA5800DC77FE /* add_phone.png */,
 				B7E3748A1AA8AA5800DC77FE /* bg_item_list_4.9.png */,
 				B7E3748B1AA8AA5800DC77FE /* dropdown.png */,
@@ -264,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7E3749A1AA8AA5800DC77FE /* add_phone.png in Resources */,
+				B716F9131AAAEA920094D20C /* bar.png in Resources */,
 				B7E374A51AA8AA5800DC77FE /* plus.png in Resources */,
 				B7E374861AA8A47400DC77FE /* logo.png in Resources */,
 				B7E374A91AA8AA5800DC77FE /* select.png in Resources */,
@@ -302,10 +344,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B716F9151AAAEC9B0094D20C /* CtlTableViewController.swift in Sources */,
+				B783C3581AAADB8F0016B9D5 /* ytcpsocket.swift in Sources */,
+				B783C35A1AAADC3A0016B9D5 /* ysocket.swift in Sources */,
+				B716F9171AAAED6E0094D20C /* NewDownViewController.swift in Sources */,
 				B7E374AE1AA8B10800DC77FE /* BaseViewController.swift in Sources */,
 				B7E374831AA8A3AD00DC77FE /* LoginViewController.swift in Sources */,
+				B716F9191AAAEDA70094D20C /* EnvViewController.swift in Sources */,
+				B716F91B1AAAEE0E0094D20C /* CustomCtlViewController.swift in Sources */,
+				B783C35C1AAAE1620016B9D5 /* DownloadListViewController.swift in Sources */,
 				B7E374631AA89A1A00DC77FE /* ecHome.xcdatamodeld in Sources */,
 				B7E374601AA89A1A00DC77FE /* AppDelegate.swift in Sources */,
+				B783C35E1AAAE2CC0016B9D5 /* SelectViewController.swift in Sources */,
+				B783C3601AAAE3A30016B9D5 /* BaseNavigationController.swift in Sources */,
+				B783C3571AAADB8F0016B9D5 /* ytcpsocket.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +480,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ecHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -438,6 +492,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ecHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

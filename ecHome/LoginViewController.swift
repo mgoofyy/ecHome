@@ -15,7 +15,7 @@ class LoginViewController: BaseViewController{
     @IBOutlet weak var loginButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        println(self.sumHeight)
         var logoImage = UIImageView()
         logoImage.frame = CGRect(x: self.sumWidth/3, y: self.sumHeight/6, width: self.sumWidth/3, height: self.sumHeight/6)
         logoImage.image = UIImage(named: "logo.png")
@@ -36,9 +36,13 @@ class LoginViewController: BaseViewController{
 
         loginButton.frame = CGRect(x: self.sumWidth*3/10, y: self.sumHeight/2+90, width: self.sumWidth/5, height: 30)
         loginButton.setTitle("登陆", forState: UIControlState.Normal)
+        loginButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
         loginButton.addTarget(self, action:"butClick:",forControlEvents:.TouchUpInside)
         self.view.addSubview(loginButton)
 
+        var test = TCPClient()
+        test.testtcpclient()
+    
  
         // Do any additional setup after loading the view.
     }
@@ -55,6 +59,8 @@ class LoginViewController: BaseViewController{
     @IBAction func logOut(segue: UIStoryboardSegue){
         
     }
+    
+    
 
     /*
     // MARK: - Navigation
