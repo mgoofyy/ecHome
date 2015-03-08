@@ -248,7 +248,7 @@
             </objects>
             <point key="canvasLocation" x="5125" y="422"/>
         </scene>
-        <!--遥控品牌-->
+        <!--遥控型号-->
         <scene sceneID="m8g-QM-5oT">
             <objects>
                 <tableViewController id="jpe-7Z-0Rl" customClass="CtlTableViewController" customModule="ecHome" customModuleProvider="target" sceneMemberID="viewController">
@@ -272,7 +272,7 @@
                             <outlet property="delegate" destination="jpe-7Z-0Rl" id="xbU-4e-J5M"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="遥控品牌" id="L0k-HX-MSk">
+                    <navigationItem key="navigationItem" title="遥控型号" id="L0k-HX-MSk">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Md8-Vy-Lf8">
                             <connections>
                                 <segue destination="Ci5-y7-EcU" kind="show" id="KJN-xi-J1U"/>

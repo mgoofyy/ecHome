@@ -13,10 +13,9 @@ class CtlTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         var BackGroundImage = UIImageView()
-        BackGroundImage.frame = CGRect(x: 0, y: -self.view.frame.height*0.12, width: self.view.frame.width, height: self.view.frame.height*1.12)
+        BackGroundImage.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
         BackGroundImage.image = UIImage(named: "background.png")
-        self.view.addSubview(BackGroundImage)
-        
+        self.tableView.backgroundView = BackGroundImage
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
